@@ -1,0 +1,10 @@
+#Desafio - 04 - Aula - 06
+a = input('Digite algo: ')
+print('Qual o tipo primitivo desse valor? ',type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanúmerico? ', a.isalnum())
+print('Está em letras maiúsculas? ', a.isupper())
+print('Está em letras minúsculas? ', a.islower())
+print('Está capitalizada? ', a.istitle())
